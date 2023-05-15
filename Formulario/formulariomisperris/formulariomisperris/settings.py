@@ -55,7 +55,7 @@ ROOT_URLCONF = 'formulariomisperris.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:/Users/consu/Documents/AdoptaUnPerrito/django-misperris/Formulario/formulariomisperris/formulariomisperris/paginas'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
