@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-from django.http import HttpResponse
-
-
-def hola_mundo(request):
-    return HttpResponse("Hola mundo")
-
-=======
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from blucitoapp.models import Usuario
@@ -28,5 +20,4 @@ def formulario(request):
         return HttpResponseRedirect('/formulario/')
     else:
         return render(request, 'formulario.html')
->>>>>>> 6980591633ff7f4dad85c9794d0d64c171502f16
 
